@@ -1,0 +1,27 @@
+$ echo "# sy_myansible" >> README.md
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+git config --global user.name "suraj27dec"
+git config --global user.email "surajyanpallewar777@gmail.com"
+$ git commit -m "first commit"
+git branch -M main 
+git remote add origin https://github.com/suraj27dec/sy_myansible.git
+$ git push -u origin main
+
+**********************************************************************
+
+# After performing changes on yml file, How to upload file on git repository 
+
+$ git add -A
+$ git commit -m "ansible"
+$ git push
+
+# How to upload file on master server
+
+$ git pull 
+
+*******************************************
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGp91/xFMg9/yjtdUmm5f64+uRl/1qfTKlQPyXETLXlfU7ZgOc4Bg1h3/szJL/tAJgXI1RlSZQemh0Lfzd/nuBoLmmHUY1CNu/li20+VHWRgejEvz4con8oJTDLpR0tPj0JTVCL86uXcFpcuD6niw3h4snosriiyaYdky1/8atphw/mERav4NAcDFkY9p83JKDBZ2RKfIIIHd+JBZ/QbbzX1iOv9tsauqhunt8acyUcbNh5a65unlT4vmCXxT2xM2v+ZODCmGt1tYKUbjQjt/8qcWFlfeQ2wDT84Qw3iU280Mbhf2PHpLwph4ArVYxsmGR1tGjQTzydx4l6P4Nk601 maha@ip-172-31-24-97
+
+###################################################################
